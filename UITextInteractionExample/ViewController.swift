@@ -39,6 +39,7 @@ class ViewController: UIViewController {
 		
 		// Add the CustomTextLabel as a subview
 		customTextLabel.translatesAutoresizingMaskIntoConstraints = false
+        customTextLabel.font = .systemFont(ofSize: 30, weight: .medium)
 		view.addSubview(customTextLabel)
 		
 		
